@@ -6,6 +6,10 @@ import { Suspense } from "react";
 import { CardsSkeleton, RevenueChartSkeleton } from "@/app/ui/skeletons";
 import { LatestInvoicesSkeleton } from "@/app/ui/skeletons";
 
+export const metadata = {
+  title: "Home",
+};
+
 export default async function Page() {
   return (
     <main>
